@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudySmart</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <h1>Study Smarter, Not Harder</h1>
+        <p>Your all-in-one place for notes, study plans, and productivity tips.</p>
+    </header>
+
+    <!-- STUDY RESOURCES -->
+    <section class="resources">
+        <h2>Study Resources</h2>
+        <div class="resource-grid">
+            <a href="#" class="card">Math Notes (PDF)</a>
+            <a href="#" class="card">Science Notes (PDF)</a>
+            <a href="#" class="card">History Notes (PDF)</a>
+            <a href="#" class="card">Useful Study Links</a>
+        </div>
+    </section>
+
+    <!-- STUDY PLANNER -->
+    <section class="planner">
+        <h2>Study Planner</h2>
+        <div class="planner-box">
+            <input type="text" id="taskInput" placeholder="Add your task..." />
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+    </section>
+
+    <!-- STUDY TIPS -->
+    <section class="tips">
+        <h2>Study Tips</h2>
+        <div class="tips-grid">
+            <div class="tip">📌 Take regular breaks to refresh your mind.</div>
+            <div class="tip">📌 Use active recall instead of passive reading.</div>
+            <div class="tip">📌 Keep your study area clean and distraction-free.</div>
+            <div class="tip">📌 Review notes within 24 hours for better memory.</div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <h2>Contact / Feedback</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Your email" required />
+            <textarea placeholder="Your message..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
